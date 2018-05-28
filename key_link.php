@@ -235,3 +235,6 @@ class Keylink
         return $tmp;
     }
 }
+
+$o = new Keylink($txt, ['北京大学'=>'http://www.baidu.com', '关键词'=>'http://www.google.com']);
+$txt = $o->getResultText();
