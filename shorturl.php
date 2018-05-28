@@ -28,7 +28,7 @@ class url
     public static $max_slen = 32;
 
     /**
-     * 生成个位对比位数数组
+     * 生成个位对比位数数组 
      */
     public static function make_contrast()
     {
